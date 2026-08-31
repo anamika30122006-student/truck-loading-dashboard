@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "truck_no": "TRK-101",
+        "model": "Tata Signa 4825.TK 16-Wheeler",
+        "driver_name": "Rajesh Kumar",
+        "driver_phone": "+91 98765 43210",
+        "max_weight_capacity_kg": 25000,
+        "max_volume_capacity_cbm": 48.0,
+        "status": "Loaded",
+        "assigned_route": "Mumbai Central to Pune Hub",
+        "current_loaded_weight_kg": 21500,
+        "current_loaded_volume_cbm": 41.2
+    },
+    {
+        "id": 2,
+        "truck_no": "TRK-102",
+        "model": "Ashok Leyland 2820 Tipper",
+        "driver_name": "Rahul Sharma",
+        "driver_phone": "+91 98765 11223",
+        "max_weight_capacity_kg": 18000,
+        "max_volume_capacity_cbm": 34.0,
+        "status": "Loaded",
+        "assigned_route": "Delhi NCR to Jaipur Depot",
+        "current_loaded_weight_kg": 16200,
+        "current_loaded_volume_cbm": 29.5
+    },
+    {
+        "id": 3,
+        "truck_no": "TRK-103",
+        "model": "BharatBenz 3528C Heavy Hauler",
+        "driver_name": "Vikram Singh",
+        "driver_phone": "+91 98765 77889",
+        "max_weight_capacity_kg": 32000,
+        "max_volume_capacity_cbm": 60.0,
+        "status": "Loading",
+        "assigned_route": "Ahmedabad to Surat Port",
+        "current_loaded_weight_kg": 14500,
+        "current_loaded_volume_cbm": 26.0
+    },
+    {
+        "id": 4,
+        "truck_no": "TRK-104",
+        "model": "Eicher Pro 3019 Container",
+        "driver_name": "Suresh Patel",
+        "driver_phone": "+91 98765 99001",
+        "max_weight_capacity_kg": 12000,
+        "max_volume_capacity_cbm": 28.0,
+        "status": "Available",
+        "assigned_route": "Local Warehouse Dispatch",
+        "current_loaded_weight_kg": 0,
+        "current_loaded_volume_cbm": 0
+    },
+    {
+        "id": 5,
+        "truck_no": "TRK-105",
+        "model": "Mahindra Blazo X 49",
+        "driver_name": "Amit Chauhan",
+        "driver_phone": "+91 98765 44556",
+        "max_weight_capacity_kg": 40000,
+        "max_volume_capacity_cbm": 75.0,
+        "status": "In-Transit",
+        "assigned_route": "Bengaluru to Chennai Logistics Corridor",
+        "current_loaded_weight_kg": 38400,
+        "current_loaded_volume_cbm": 69.8
+    }
+]

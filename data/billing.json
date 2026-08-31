@@ -1,0 +1,133 @@
+[
+    {
+        "id": 1,
+        "invoice_no": "INV-105",
+        "customer_name": "UltraTech Infra Logistics",
+        "customer_email": "billing@ultratechlogistics.com",
+        "customer_gst": "27AAACU1234F1Z8",
+        "invoice_date": "2026-08-31",
+        "due_date": "2026-09-15",
+        "items": [
+            {
+                "description": "Cement Bulk Haulage (TRK-101) - 350 Bags",
+                "qty": 350,
+                "rate": 400.00,
+                "amount": 140000.00
+            },
+            {
+                "description": "Express Loading Bay & Handling Charges",
+                "qty": 1,
+                "rate": 10000.00,
+                "amount": 10000.00
+            }
+        ],
+        "subtotal": 150000.00,
+        "tax_rate_pct": 18,
+        "tax_amount": 27000.00,
+        "discount": 0.00,
+        "total_amount": 177000.00,
+        "status": "Pending",
+        "payment_mode": "NEFT / RTGS",
+        "created_at": "2026-08-31 09:30:00"
+    },
+    {
+        "id": 2,
+        "invoice_no": "INV-100",
+        "customer_name": "ABC Ltd.",
+        "customer_email": "accounts@abccorp.in",
+        "customer_gst": "07AAAAA0000A1Z5",
+        "invoice_date": "2026-08-30",
+        "due_date": "2026-08-30",
+        "items": [
+            {
+                "description": "Warehousing Storage & Distribution Fee",
+                "qty": 1,
+                "rate": 10000.00,
+                "amount": 10000.00
+            }
+        ],
+        "subtotal": 10000.00,
+        "tax_rate_pct": 0,
+        "tax_amount": 0.00,
+        "discount": 0.00,
+        "total_amount": 10000.00,
+        "status": "Paid",
+        "payment_mode": "UPI / Net Banking",
+        "created_at": "2026-08-30 14:00:00"
+    },
+    {
+        "id": 3,
+        "invoice_no": "INV-101",
+        "customer_name": "LMN Pvt. Ltd.",
+        "customer_email": "finance@lmnpvtltd.com",
+        "customer_gst": "29BBBBB1111B1Z2",
+        "invoice_date": "2026-08-29",
+        "due_date": "2026-08-30",
+        "items": [
+            {
+                "description": "Interstate Freight Transport Consignment",
+                "qty": 1,
+                "rate": 15000.00,
+                "amount": 15000.00
+            }
+        ],
+        "subtotal": 15000.00,
+        "tax_rate_pct": 0,
+        "tax_amount": 0.00,
+        "discount": 0.00,
+        "total_amount": 15000.00,
+        "status": "Paid",
+        "payment_mode": "Cheque",
+        "created_at": "2026-08-29 11:20:00"
+    },
+    {
+        "id": 4,
+        "invoice_no": "INV-102",
+        "customer_name": "Global Trans Haulers",
+        "customer_email": "payments@globaltrans.com",
+        "customer_gst": "27CCCC8888C1Z9",
+        "invoice_date": "2026-08-15",
+        "due_date": "2026-08-25",
+        "items": [
+            {
+                "description": "Heavy Machinery Transit Delivery",
+                "qty": 1,
+                "rate": 12500.00,
+                "amount": 12500.00
+            }
+        ],
+        "subtotal": 12500.00,
+        "tax_rate_pct": 0,
+        "tax_amount": 0.00,
+        "discount": 0.00,
+        "total_amount": 12500.00,
+        "status": "Overdue",
+        "payment_mode": "Bank Transfer",
+        "created_at": "2026-08-15 10:15:00"
+    },
+    {
+        "id": 5,
+        "invoice_no": "INV-098",
+        "customer_name": "XYZ Corp.",
+        "customer_email": "vendor@xyzcorp.org",
+        "customer_gst": "33DDDDD4444D1Z1",
+        "invoice_date": "2026-08-28",
+        "due_date": "2026-09-05",
+        "items": [
+            {
+                "description": "Container Hauling & Fleet Escort",
+                "qty": 1,
+                "rate": 25000.00,
+                "amount": 25000.00
+            }
+        ],
+        "subtotal": 25000.00,
+        "tax_rate_pct": 0,
+        "tax_amount": 0.00,
+        "discount": 0.00,
+        "total_amount": 25000.00,
+        "status": "Pending",
+        "payment_mode": "Wire Transfer",
+        "created_at": "2026-08-28 16:40:00"
+    }
+]

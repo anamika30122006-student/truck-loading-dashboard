@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "emp_id": 6,
+        "emp_name": "Sunil Gaikwad",
+        "leave_type": "Casual Leave",
+        "from_date": "2026-08-31",
+        "to_date": "2026-09-02",
+        "total_days": 3,
+        "reason": "Family emergency in native village",
+        "status": "Approved",
+        "approved_by": "Admin User",
+        "approved_at": "2026-08-30 17:00:00"
+    },
+    {
+        "id": 2,
+        "emp_id": 1,
+        "emp_name": "Rahul Sharma",
+        "leave_type": "Medical Leave",
+        "from_date": "2026-09-10",
+        "to_date": "2026-09-12",
+        "total_days": 3,
+        "reason": "Scheduled routine medical checkup",
+        "status": "Pending",
+        "approved_by": null,
+        "approved_at": null
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "emp_code": "EMP-1001",
+        "name": "Rahul Sharma",
+        "email": "rahul.sharma@logistics.pro",
+        "phone": "+91 98765 11223",
+        "designation": "Heavy Vehicle Driver",
+        "department": "Fleet Operations",
+        "joining_date": "2024-03-15",
+        "basic_salary": 28000,
+        "allowances": 4500,
+        "status": "Active"
+    },
+    {
+        "id": 2,
+        "emp_code": "EMP-1002",
+        "name": "Amit Verma",
+        "email": "amit.verma@logistics.pro",
+        "phone": "+91 98765 22334",
+        "designation": "Store & Warehouse Manager",
+        "department": "Warehouse Management",
+        "joining_date": "2023-08-01",
+        "basic_salary": 45000,
+        "allowances": 6000,
+        "status": "Active"
+    },
+    {
+        "id": 3,
+        "emp_code": "EMP-1003",
+        "name": "Neha Singh",
+        "email": "neha.singh@logistics.pro",
+        "phone": "+91 98765 33445",
+        "designation": "Senior Accountant",
+        "department": "Finance & Accounts",
+        "joining_date": "2023-11-10",
+        "basic_salary": 42000,
+        "allowances": 5000,
+        "status": "Active"
+    },
+    {
+        "id": 4,
+        "emp_code": "EMP-1004",
+        "name": "Vikram Patel",
+        "email": "vikram.patel@logistics.pro",
+        "phone": "+91 98765 44556",
+        "designation": "Procurement Officer",
+        "department": "Purchase & Logistics",
+        "joining_date": "2024-01-20",
+        "basic_salary": 38000,
+        "allowances": 4000,
+        "status": "Active"
+    },
+    {
+        "id": 5,
+        "emp_code": "EMP-1005",
+        "name": "Rajesh Kumar",
+        "email": "rajesh.kumar@logistics.pro",
+        "phone": "+91 98765 55667",
+        "designation": "Senior Route Driver",
+        "department": "Fleet Operations",
+        "joining_date": "2022-05-18",
+        "basic_salary": 30000,
+        "allowances": 5000,
+        "status": "Active"
+    },
+    {
+        "id": 6,
+        "emp_code": "EMP-1006",
+        "name": "Sunil Gaikwad",
+        "email": "sunil.g@logistics.pro",
+        "phone": "+91 98765 66778",
+        "designation": "Dock Loading Lead",
+        "department": "Warehouse Management",
+        "joining_date": "2024-06-01",
+        "basic_salary": 24000,
+        "allowances": 3000,
+        "status": "On Leave"
+    }
+]

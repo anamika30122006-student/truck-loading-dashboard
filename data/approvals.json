@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "request_type": "Purchase Order",
+        "reference_no": "PO-1256",
+        "requested_by": "Amit Verma",
+        "department": "Store",
+        "amount": 25000,
+        "date": "2026-08-31",
+        "description": "Procurement of 50 heavy-duty ratchet cargo straps and safety tarpaulins.",
+        "status": "Pending",
+        "approved_by": null,
+        "approved_at": null,
+        "admin_remarks": null
+    },
+    {
+        "id": 2,
+        "request_type": "Expense Claim",
+        "reference_no": "EXP-0987",
+        "requested_by": "Neha Singh",
+        "department": "Accounts",
+        "amount": 7500,
+        "date": "2026-08-31",
+        "description": "Express courier and highway toll reimbursement for urgent client consignments.",
+        "status": "Pending",
+        "approved_by": null,
+        "approved_at": null,
+        "admin_remarks": null
+    },
+    {
+        "id": 3,
+        "request_type": "New Vendor",
+        "reference_no": "VEN-0045",
+        "requested_by": "Vikram Patel",
+        "department": "Purchase",
+        "amount": null,
+        "date": "2026-08-31",
+        "description": "Onboarding Apex Fuel & Lubricants Ltd. as contracted fleet diesel supplier.",
+        "status": "Pending",
+        "approved_by": null,
+        "approved_at": null,
+        "admin_remarks": null
+    },
+    {
+        "id": 4,
+        "request_type": "Truck Gate Pass",
+        "reference_no": "GP-984212",
+        "requested_by": "Rajesh Kumar",
+        "department": "Fleet Logistics",
+        "amount": 145000,
+        "date": "2026-08-31",
+        "description": "Gate clearance for TRK-103 carrying 14,500 kg industrial machinery to Surat Port.",
+        "status": "Pending",
+        "approved_by": null,
+        "approved_at": null,
+        "admin_remarks": null
+    },
+    {
+        "id": 5,
+        "request_type": "Leave Request",
+        "reference_no": "LEV-102",
+        "requested_by": "Rahul Sharma",
+        "department": "Fleet Operations",
+        "amount": null,
+        "date": "2026-08-31",
+        "description": "Medical leave request for 3 days starting 10 Sep 2026.",
+        "status": "Pending",
+        "approved_by": null,
+        "approved_at": null,
+        "admin_remarks": null
+    }
+]

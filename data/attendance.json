@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "emp_id": 1,
+        "emp_name": "Rahul Sharma",
+        "date": "2026-08-31",
+        "check_in": "08:45 AM",
+        "check_out": "05:30 PM",
+        "status": "Present",
+        "overtime_hrs": 1.5
+    },
+    {
+        "id": 2,
+        "emp_id": 2,
+        "emp_name": "Amit Verma",
+        "date": "2026-08-31",
+        "check_in": "09:00 AM",
+        "check_out": "06:00 PM",
+        "status": "Present",
+        "overtime_hrs": 0
+    },
+    {
+        "id": 3,
+        "emp_id": 3,
+        "emp_name": "Neha Singh",
+        "date": "2026-08-31",
+        "check_in": "09:10 AM",
+        "check_out": "06:15 PM",
+        "status": "Present",
+        "overtime_hrs": 0.5
+    },
+    {
+        "id": 4,
+        "emp_id": 4,
+        "emp_name": "Vikram Patel",
+        "date": "2026-08-31",
+        "check_in": "09:05 AM",
+        "check_out": "05:45 PM",
+        "status": "Present",
+        "overtime_hrs": 0
+    },
+    {
+        "id": 5,
+        "emp_id": 5,
+        "emp_name": "Rajesh Kumar",
+        "date": "2026-08-31",
+        "check_in": "08:30 AM",
+        "check_out": "05:30 PM",
+        "status": "Present",
+        "overtime_hrs": 2.0
+    },
+    {
+        "id": 6,
+        "emp_id": 6,
+        "emp_name": "Sunil Gaikwad",
+        "date": "2026-08-31",
+        "check_in": "-",
+        "check_out": "-",
+        "status": "On Leave",
+        "overtime_hrs": 0
+    }
+]

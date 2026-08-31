@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "manifest_no": "GP-984210",
+        "truck_id": 1,
+        "truck_no": "TRK-101",
+        "driver_name": "Rajesh Kumar",
+        "source": "Central Hub Bay-1",
+        "destination": "Pune Distribution Center",
+        "items": [
+            {
+                "item_name": "Industrial Cement Bags (50kg)",
+                "qty": 350,
+                "weight_kg": 17500,
+                "volume_cbm": 14.0
+            },
+            {
+                "item_name": "Heavy Steel Rebar Rods 12mm",
+                "qty": 53,
+                "weight_kg": 4000,
+                "volume_cbm": 4.24
+            }
+        ],
+        "total_weight_kg": 21500,
+        "weight_capacity_kg": 25000,
+        "weight_utilization_pct": 86.0,
+        "total_volume_cbm": 18.24,
+        "volume_capacity_cbm": 48.0,
+        "volume_utilization_pct": 38.0,
+        "status": "Dispatched",
+        "approval_status": "Approved",
+        "created_at": "2026-08-31 09:30:00"
+    },
+    {
+        "id": 2,
+        "manifest_no": "GP-984211",
+        "truck_id": 2,
+        "truck_no": "TRK-102",
+        "driver_name": "Rahul Sharma",
+        "source": "Delhi Warehouse Hub",
+        "destination": "Jaipur Depot",
+        "items": [
+            {
+                "item_name": "Heavy Steel Rebar Rods 12mm",
+                "qty": 200,
+                "weight_kg": 15000,
+                "volume_cbm": 16.0
+            },
+            {
+                "item_name": "Hydraulic Brake Fluid 5L",
+                "qty": 230,
+                "weight_kg": 1200,
+                "volume_cbm": 3.45
+            }
+        ],
+        "total_weight_kg": 16200,
+        "weight_capacity_kg": 18000,
+        "weight_utilization_pct": 90.0,
+        "total_volume_cbm": 19.45,
+        "volume_capacity_cbm": 34.0,
+        "volume_utilization_pct": 57.2,
+        "status": "Ready for Gate Pass",
+        "approval_status": "Approved",
+        "created_at": "2026-08-31 09:45:00"
+    }
+]
