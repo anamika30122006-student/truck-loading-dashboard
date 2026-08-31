@@ -41,8 +41,8 @@ document.addEventListener('DOMContentLoaded', () => {
             ctx.lineTo(width - paddingRight, y);
             ctx.stroke();
 
-            // Label
-            const formattedLabel = step === 0 ? '0' : (step >= 100000 ? (step / 100000) + ',00,000' : step);
+            // Label in Crore
+            const formattedLabel = step === 0 ? '0' : '₹' + (step / 100000) + ' Cr';
             ctx.fillText(formattedLabel, paddingLeft - 10, y + 4);
         });
 

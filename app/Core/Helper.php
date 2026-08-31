@@ -2,10 +2,21 @@
 namespace App\Core;
 
 class Helper {
-    public static function formatCurrency($amount) {
+    public static function formatCurrency($amount, $preferCrore = true) {
         $amount = (float)$amount;
+        
+        // Format in Crore (Cr) if >= 1 Crore (1,00,00,000) or if preferCrore and >= 10 Lakh (10,00,000)
+        if ($amount >= 10000000) {
+            $cr = $amount / 10000000;
+            return '₹' . number_format($cr, 2) . ' Cr';
+        } elseif ($amount >= 100000 && $preferCrore) {
+            $cr = $amount / 10000000;
+            if ($cr >= 0.01) {
+                return '₹' . number_format($cr, 2) . ' Cr';
+            }
+        }
+
         $formatted = number_format($amount, 2, '.', ',');
-        // Convert to Indian numbering format (e.g., ₹2,50,000)
         $parts = explode('.', $formatted);
         $intPart = $parts[0];
         $decPart = isset($parts[1]) && $parts[1] !== '00' ? '.' . $parts[1] : '';
@@ -19,6 +30,10 @@ class Helper {
             return '₹' . $restUnits . ',' . $lastThree . $decPart;
         }
         return '₹' . $intPart . $decPart;
+    }
+
+    public static function formatExactCurrency($amount) {
+        return self::formatCurrency($amount, false);
     }
 
     public static function formatDate($dateStr, $format = 'd M Y') {

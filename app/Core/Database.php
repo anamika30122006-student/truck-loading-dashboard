@@ -12,11 +12,13 @@ class Database {
             $tmpDataDir = sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'logistics_data';
             if (!is_dir($tmpDataDir)) {
                 @mkdir($tmpDataDir, 0777, true);
-                // Copy bundled seed files to /tmp for read/write access
-                if (is_dir($bundledDataDir)) {
-                    $files = glob($bundledDataDir . '/*.json');
-                    foreach ($files as $f) {
-                        @copy($f, $tmpDataDir . DIRECTORY_SEPARATOR . basename($f));
+            }
+            if (is_dir($bundledDataDir)) {
+                $files = glob($bundledDataDir . '/*.json');
+                foreach ($files as $f) {
+                    $target = $tmpDataDir . DIRECTORY_SEPARATOR . basename($f);
+                    if (!file_exists($target) || (filemtime($f) > filemtime($target))) {
+                        @copy($f, $target);
                     }
                 }
             }

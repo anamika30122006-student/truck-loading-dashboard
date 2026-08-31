@@ -68,7 +68,7 @@ use App\Core\Helper;
             </div>
             <div class="stat-info">
                 <div class="stat-label">Today's Billing</div>
-                <div class="stat-value">₹2,50,000</div>
+                <div class="stat-value">₹2.50 Cr</div>
             </div>
         </div>
         <div class="stat-sparkline">
@@ -206,11 +206,11 @@ use App\Core\Helper;
             <div style="display: flex; gap: 16px; font-size: 12px; font-weight: 600; margin-bottom: 12px;">
                 <div style="display: flex; align-items: center; gap: 6px;">
                     <span style="display: inline-block; width: 14px; height: 3px; background: #2563EB; border-radius: 2px;"></span>
-                    <span style="color: var(--text-muted);">Billing (₹)</span>
+                    <span style="color: var(--text-muted);">Billing (₹ Cr)</span>
                 </div>
                 <div style="display: flex; align-items: center; gap: 6px;">
                     <span style="display: inline-block; width: 14px; height: 3px; background: #EF4444; border-radius: 2px;"></span>
-                    <span style="color: var(--text-muted);">Expenses (₹)</span>
+                    <span style="color: var(--text-muted);">Expenses (₹ Cr)</span>
                 </div>
             </div>
             
@@ -222,17 +222,17 @@ use App\Core\Helper;
             <div class="biz-stats-pills">
                 <div class="biz-pill">
                     <div class="biz-pill-label">Total Billing</div>
-                    <div class="biz-pill-val">₹18,50,000</div>
+                    <div class="biz-pill-val">₹18.50 Cr</div>
                     <div class="biz-pill-growth"><i class="ph ph-trend-up"></i> +15.3%</div>
                 </div>
                 <div class="biz-pill">
                     <div class="biz-pill-label">Total Expenses</div>
-                    <div class="biz-pill-val">₹8,20,000</div>
+                    <div class="biz-pill-val">₹8.20 Cr</div>
                     <div class="biz-pill-growth" style="color: var(--warning);"><i class="ph ph-trend-up"></i> +10.2%</div>
                 </div>
                 <div class="biz-pill">
                     <div class="biz-pill-label">Net Profit</div>
-                    <div class="biz-pill-val">₹10,30,000</div>
+                    <div class="biz-pill-val">₹10.30 Cr</div>
                     <div class="biz-pill-growth"><i class="ph ph-trend-up"></i> +18.6%</div>
                 </div>
             </div>

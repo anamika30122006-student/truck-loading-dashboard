@@ -9,23 +9,23 @@
         "due_date": "2026-09-15",
         "items": [
             {
-                "description": "Cement Bulk Haulage (TRK-101) - 350 Bags",
-                "qty": 350,
-                "rate": 400.00,
-                "amount": 140000.00
+                "description": "Bulk Cement & Infrastructure Freight Consignment (TRK-101 to TRK-105)",
+                "qty": 5,
+                "rate": 3000000.00,
+                "amount": 15000000.00
             },
             {
-                "description": "Express Loading Bay & Handling Charges",
+                "description": "Express Loading Bay & Interstate Highway Corridor Clearance",
                 "qty": 1,
-                "rate": 10000.00,
-                "amount": 10000.00
+                "rate": 2700000.00,
+                "amount": 2700000.00
             }
         ],
-        "subtotal": 150000.00,
+        "subtotal": 15000000.00,
         "tax_rate_pct": 18,
-        "tax_amount": 27000.00,
+        "tax_amount": 2700000.00,
         "discount": 0.00,
-        "total_amount": 177000.00,
+        "total_amount": 17700000.00,
         "status": "Pending",
         "payment_mode": "NEFT / RTGS",
         "created_at": "2026-08-31 09:30:00"
@@ -40,17 +40,17 @@
         "due_date": "2026-08-30",
         "items": [
             {
-                "description": "Warehousing Storage & Distribution Fee",
+                "description": "Nationwide Multi-Modal Distribution Fleet Contract",
                 "qty": 1,
-                "rate": 10000.00,
-                "amount": 10000.00
+                "rate": 10000000.00,
+                "amount": 10000000.00
             }
         ],
-        "subtotal": 10000.00,
+        "subtotal": 10000000.00,
         "tax_rate_pct": 0,
         "tax_amount": 0.00,
         "discount": 0.00,
-        "total_amount": 10000.00,
+        "total_amount": 10000000.00,
         "status": "Paid",
         "payment_mode": "UPI / Net Banking",
         "created_at": "2026-08-30 14:00:00"
@@ -65,17 +65,17 @@
         "due_date": "2026-08-30",
         "items": [
             {
-                "description": "Interstate Freight Transport Consignment",
+                "description": "Interstate Heavy Industrial Freight Consignment",
                 "qty": 1,
-                "rate": 15000.00,
-                "amount": 15000.00
+                "rate": 15000000.00,
+                "amount": 15000000.00
             }
         ],
-        "subtotal": 15000.00,
+        "subtotal": 15000000.00,
         "tax_rate_pct": 0,
         "tax_amount": 0.00,
         "discount": 0.00,
-        "total_amount": 15000.00,
+        "total_amount": 15000000.00,
         "status": "Paid",
         "payment_mode": "Cheque",
         "created_at": "2026-08-29 11:20:00"
@@ -90,17 +90,17 @@
         "due_date": "2026-08-25",
         "items": [
             {
-                "description": "Heavy Machinery Transit Delivery",
+                "description": "Heavy Machinery Transit Delivery & Escort",
                 "qty": 1,
-                "rate": 12500.00,
-                "amount": 12500.00
+                "rate": 12500000.00,
+                "amount": 12500000.00
             }
         ],
-        "subtotal": 12500.00,
+        "subtotal": 12500000.00,
         "tax_rate_pct": 0,
         "tax_amount": 0.00,
         "discount": 0.00,
-        "total_amount": 12500.00,
+        "total_amount": 12500000.00,
         "status": "Overdue",
         "payment_mode": "Bank Transfer",
         "created_at": "2026-08-15 10:15:00"
@@ -115,17 +115,17 @@
         "due_date": "2026-09-05",
         "items": [
             {
-                "description": "Container Hauling & Fleet Escort",
+                "description": "Container Hauling & Warehouse Hub Lease",
                 "qty": 1,
-                "rate": 25000.00,
-                "amount": 25000.00
+                "rate": 25000000.00,
+                "amount": 25000000.00
             }
         ],
-        "subtotal": 25000.00,
+        "subtotal": 25000000.00,
         "tax_rate_pct": 0,
         "tax_amount": 0.00,
         "discount": 0.00,
-        "total_amount": 25000.00,
+        "total_amount": 25000000.00,
         "status": "Pending",
         "payment_mode": "Wire Transfer",
         "created_at": "2026-08-28 16:40:00"
