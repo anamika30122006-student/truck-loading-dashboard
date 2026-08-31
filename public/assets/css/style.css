@@ -1152,12 +1152,39 @@ a {
 .fill-weight { background: linear-gradient(90deg, #10B981, #F59E0B); }
 .fill-volume { background: linear-gradient(90deg, #3B82F6, #8B5CF6); }
 
+/* Two Column Grid Utility (Used in HRMS and Truck Loading) */
+.two-col-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 20px;
+}
+
+/* Sidebar Backdrop for Mobile */
+.sidebar-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(3px);
+  z-index: 998;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.25s ease-in-out;
+}
+
+.sidebar-backdrop.active {
+  opacity: 1;
+  visibility: visible;
+}
+
 /* Printable View for Invoices and Payslips */
 @media print {
   body {
     background: #fff !important;
   }
-  .sidebar, .topbar, .btn, .no-print {
+  .sidebar, .topbar, .btn, .no-print, .sidebar-backdrop {
     display: none !important;
   }
   .main-content {
@@ -1169,7 +1196,7 @@ a {
   }
 }
 
-/* Responsive Breakpoints */
+/* Responsive: Laptops & Medium Screens (<= 1200px) */
 @media (max-width: 1200px) {
   .modules-grid-6 {
     grid-template-columns: repeat(3, 1fr);
@@ -1179,33 +1206,133 @@ a {
   }
 }
 
-@media (max-width: 900px) {
-  .stats-grid-4 {
-    grid-template-columns: repeat(2, 1fr);
-  }
+/* Responsive: Tablets & Mobile Devices (<= 991px) */
+@media (max-width: 991px) {
   .sidebar {
     transform: translateX(-100%);
+    z-index: 999;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .sidebar.open {
     transform: translateX(0);
   }
-  .main-content {
-    margin-left: 0;
-    width: 100vw;
+
+  .sidebar-close-btn {
+    display: block !important;
   }
+
+  .main-content {
+    margin-left: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .topbar {
+    padding: 0 16px;
+    height: 64px;
+  }
+
   .sidebar-toggle {
-    display: block;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    color: var(--text-main);
+    cursor: pointer;
+  }
+
+  .stats-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .two-col-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .content-body {
+    padding: 20px 16px;
+  }
+
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
   }
 }
 
-@media (max-width: 600px) {
+/* Responsive: Mobile Screens (<= 576px) */
+@media (max-width: 576px) {
+  .topbar-search {
+    display: none;
+  }
+
+  .topbar {
+    padding: 0 12px;
+    height: 58px;
+  }
+
+  .topbar-right {
+    gap: 12px;
+  }
+
+  .live-clock-badge {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+
+  .content-body {
+    padding: 14px 10px;
+  }
+
   .stats-grid-4 {
     grid-template-columns: 1fr;
+    gap: 12px;
   }
+
   .modules-grid-6 {
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
-  .content-body {
+
+  .biz-stats-pills {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .capacity-bars-wrap {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .card-header {
+    padding: 14px 16px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .card-body {
     padding: 16px;
+  }
+
+  .modal-box {
+    margin: 8px;
+    border-radius: 12px;
+    max-height: 92vh;
+  }
+
+  .modal-body {
+    padding: 16px;
+  }
+
+  .modal-footer {
+    padding: 12px 16px;
   }
 }

@@ -18,3 +18,4 @@
 </head>
 <body>
 <div class="app-container">
+<div id="sidebarBackdrop" class="sidebar-backdrop"></div>

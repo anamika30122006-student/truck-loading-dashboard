@@ -4,8 +4,9 @@ $approvalModel = new ApprovalModel();
 $pendingCount = count($approvalModel->getPending());
 ?>
 <aside class="sidebar">
-    <div class="sidebar-brand" style="padding: 18px 16px;">
-        <img src="/assets/images/logo-white.svg" alt="Akashcoke Industries Pvt Ltd" style="height: 38px; width: auto; max-width: 100%; object-fit: contain;">
+    <div class="sidebar-brand" style="padding: 18px 16px; display: flex; align-items: center; justify-content: space-between;">
+        <img src="/assets/images/logo-white.svg" alt="Akashcoke Industries Pvt Ltd" style="height: 36px; width: auto; max-width: 100%; object-fit: contain;">
+        <button id="sidebarCloseBtn" class="sidebar-close-btn" style="background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; display: none;">&times;</button>
     </div>
 
     <nav class="sidebar-nav">

@@ -119,7 +119,7 @@ use App\Core\Helper;
 </div>
 
 <!-- Fleet & Gate Passes Table Grid -->
-<div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px;">
+<div class="two-col-grid">
     <!-- Active Fleet Table -->
     <div class="card">
         <div class="card-header">

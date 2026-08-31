@@ -73,7 +73,7 @@ use App\Core\Helper;
 </div>
 
 <!-- Employee Directory & Attendance Grid -->
-<div style="display: grid; grid-template-columns: 1.3fr 1fr; gap: 20px;">
+<div class="two-col-grid">
     <!-- Employee Directory Table -->
     <div class="card">
         <div class="card-header">

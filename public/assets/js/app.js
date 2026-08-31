@@ -18,14 +18,36 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Mobile Sidebar Toggle
+    // Mobile Sidebar Toggle and Backdrop Handling
     const sidebarToggle = document.getElementById('sidebarToggle');
+    const sidebarCloseBtn = document.getElementById('sidebarCloseBtn');
     const sidebar = document.querySelector('.sidebar');
-    if (sidebarToggle && sidebar) {
-        sidebarToggle.addEventListener('click', () => {
-            sidebar.classList.toggle('open');
-        });
+    const backdrop = document.getElementById('sidebarBackdrop');
+
+    function openSidebar() {
+        if (sidebar) sidebar.classList.add('open');
+        if (backdrop) backdrop.classList.add('active');
+        document.body.style.overflow = 'hidden';
     }
+
+    function closeSidebar() {
+        if (sidebar) sidebar.classList.remove('open');
+        if (backdrop) backdrop.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    if (sidebarToggle) sidebarToggle.addEventListener('click', openSidebar);
+    if (sidebarCloseBtn) sidebarCloseBtn.addEventListener('click', closeSidebar);
+    if (backdrop) backdrop.addEventListener('click', closeSidebar);
+
+    // Close mobile sidebar when clicking a nav link
+    document.querySelectorAll('.sidebar .nav-item').forEach(item => {
+        item.addEventListener('click', () => {
+            if (window.innerWidth <= 991) {
+                closeSidebar();
+            }
+        });
+    });
 
     // Modal background close
     document.querySelectorAll('.modal-backdrop').forEach(modal => {
