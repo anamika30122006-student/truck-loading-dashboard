@@ -4,14 +4,8 @@ $approvalModel = new ApprovalModel();
 $pendingCount = count($approvalModel->getPending());
 ?>
 <aside class="sidebar">
-    <div class="sidebar-brand">
-        <div class="brand-icon">
-            <i class="ph-fill ph-truck"></i>
-        </div>
-        <div class="brand-info">
-            <h2>Logistics Pro</h2>
-            <span>Management System</span>
-        </div>
+    <div class="sidebar-brand" style="padding: 18px 16px;">
+        <img src="/assets/images/logo-white.svg" alt="Akashcoke Industries Pvt Ltd" style="height: 38px; width: auto; max-width: 100%; object-fit: contain;">
     </div>
 
     <nav class="sidebar-nav">

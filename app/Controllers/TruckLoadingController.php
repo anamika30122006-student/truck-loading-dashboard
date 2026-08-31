@@ -27,7 +27,7 @@ class TruckLoadingController extends Controller {
         $stats = $this->truckModel->getTruckStats();
 
         $this->render('truck_loading/index', [
-            'title' => 'Truck Loading & Visual Bay - Logistics Pro',
+            'title' => 'Truck Loading & Visual Bay - Akashcoke Industries',
             'activePage' => 'truck_loading',
             'trucks' => $trucks,
             'manifests' => $manifests,

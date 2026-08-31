@@ -34,7 +34,7 @@ class DashboardController extends Controller {
         $recentActivities = $activityModel->getAll(6);
 
         $this->render('dashboard/index', [
-            'title' => 'Dashboard Overview - Logistics Pro',
+            'title' => 'Dashboard Overview - Akashcoke Industries',
             'activePage' => 'dashboard',
             'inventoryStats' => $inventoryStats,
             'truckStats' => $truckStats,

@@ -171,8 +171,8 @@ function printPayslip(p) {
         <div style="border: 2px solid #E2E8F0; padding: 24px; border-radius: 8px;">
             <div style="display: flex; justify-content: space-between; border-bottom: 2px solid #2563EB; padding-bottom: 12px; margin-bottom: 18px;">
                 <div>
-                    <h2 style="color: #2563EB; margin-bottom: 4px;">Logistics Pro Pvt. Ltd.</h2>
-                    <div style="color: #64748B; font-size: 11px;">Express Logistics & Supply Chain Operations</div>
+                    <img src="/assets/images/logo-dark.svg" alt="Akashcoke Industries Pvt Ltd" style="height: 32px; margin-bottom: 4px;">
+                    <div style="color: #64748B; font-size: 11px;">Hard Coke, Coal Logistics & Workforce Operations</div>
                 </div>
                 <div style="text-align: right;">
                     <h3 style="font-size: 16px; color: #1E293B;">SALARY PAYSLIP</h3>

@@ -251,8 +251,8 @@ function printInvoice(inv) {
     area.innerHTML = `
         <div style="display: flex; justify-content: space-between; border-bottom: 2px solid #2563EB; padding-bottom: 16px; margin-bottom: 20px;">
             <div>
-                <h2 style="color: #2563EB; margin-bottom: 4px;">Logistics Pro Pvt. Ltd.</h2>
-                <div style="color: #64748B; font-size: 12px;">Express Cargo Logistics & Fleet Haulage<br>GSTIN: 27AABCL9999P1Z2</div>
+                <img src="/assets/images/logo-dark.svg" alt="Akashcoke Industries Pvt Ltd" style="height: 36px; margin-bottom: 6px;">
+                <div style="color: #64748B; font-size: 12px;">Hard Coke, Coal Logistics & Infrastructure Haulage<br>GSTIN: 27AABCA1234K1Z5</div>
             </div>
             <div style="text-align: right;">
                 <h3 style="font-size: 20px; color: #1E293B;">TAX INVOICE</h3>

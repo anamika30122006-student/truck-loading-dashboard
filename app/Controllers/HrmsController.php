@@ -24,7 +24,7 @@ class HrmsController extends Controller {
         $stats = $this->hrmsModel->getHrmsStats();
 
         $this->render('hrms/index', [
-            'title' => 'HRMS & Staff Management - Logistics Pro',
+            'title' => 'HRMS & Staff Management - Akashcoke Industries',
             'activePage' => 'hrms',
             'employees' => $employees,
             'attendance' => $attendance,

@@ -20,7 +20,7 @@ class InventoryController extends Controller {
         $stats = $this->inventoryModel->getTotalStats();
 
         $this->render('inventory/index', [
-            'title' => 'Inventory Management - Logistics Pro',
+            'title' => 'Inventory Management - Akashcoke Industries',
             'activePage' => 'inventory',
             'items' => $items,
             'stats' => $stats

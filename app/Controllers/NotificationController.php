@@ -16,7 +16,7 @@ class NotificationController extends Controller {
         $unreadCount = $this->notificationModel->getUnreadCount();
 
         $this->render('notifications/index', [
-            'title' => 'Payment Notifications & Reminders - Logistics Pro',
+            'title' => 'Payment Notifications & Reminders - Akashcoke Industries',
             'activePage' => 'notifications',
             'notifications' => $notifications,
             'unreadCount' => $unreadCount

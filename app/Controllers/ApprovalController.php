@@ -28,7 +28,7 @@ class ApprovalController extends Controller {
         $stats = $this->approvalModel->getStats();
 
         $this->render('approvals/index', [
-            'title' => 'Pending Approvals (1-Time Approval) - Logistics Pro',
+            'title' => 'Pending Approvals (1-Time Approval) - Akashcoke Industries',
             'activePage' => 'approvals',
             'approvals' => $approvals,
             'stats' => $stats

@@ -22,7 +22,7 @@ class BillingController extends Controller {
         $stats = $this->billingModel->getStats();
 
         $this->render('billing/index', [
-            'title' => 'Billing & Invoicing - Logistics Pro',
+            'title' => 'Billing & Invoicing - Akashcoke Industries',
             'activePage' => 'billing',
             'invoices' => $invoices,
             'stats' => $stats

@@ -30,7 +30,7 @@ class PayrollController extends Controller {
         $employees = $this->hrmsModel->getAllEmployees();
 
         $this->render('payroll/index', [
-            'title' => 'Payroll & Salary Management - Logistics Pro',
+            'title' => 'Payroll & Salary Management - Akashcoke Industries',
             'activePage' => 'payroll',
             'payrollList' => $payrollList,
             'selectedMonth' => $month,
