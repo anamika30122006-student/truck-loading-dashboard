@@ -85,6 +85,7 @@ use App\Core\Helper;
             <table class="custom-table" id="payrollTable">
                 <thead>
                     <tr>
+                        <th style="width: 45px;">#</th>
                         <th>Payslip #</th>
                         <th>Employee</th>
                         <th>Designation</th>
@@ -98,10 +99,11 @@ use App\Core\Helper;
                 </thead>
                 <tbody>
                     <?php if (empty($payrollList)): ?>
-                        <tr><td colspan="9" style="text-align: center; padding: 30px;">No payroll records for this month yet. Click "Process Batch Payroll" above.</td></tr>
+                        <tr><td colspan="10" style="text-align: center; padding: 30px;">No payroll records for this month yet. Click "Process Batch Payroll" above.</td></tr>
                     <?php else: ?>
-                        <?php foreach ($payrollList as $p): ?>
+                        <?php $sno = 1; foreach ($payrollList as $p): ?>
                             <tr>
+                                <td style="font-weight: 700; color: var(--text-muted);"><?= $sno++ ?></td>
                                 <td>
                                     <span style="font-family: monospace; font-weight: 700; color: var(--primary);">
                                         <?= htmlspecialchars($p['payslip_no']) ?>

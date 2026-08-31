@@ -130,6 +130,7 @@ use App\Core\Helper;
                 <table class="custom-table">
                     <thead>
                         <tr>
+                            <th style="width: 45px;">#</th>
                             <th>Truck No</th>
                             <th>Model / Driver</th>
                             <th>Capacity</th>
@@ -138,8 +139,9 @@ use App\Core\Helper;
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($trucks as $truck): ?>
+                        <?php $truckSno = 1; foreach ($trucks as $truck): ?>
                             <tr>
+                                <td style="font-weight: 700; color: var(--text-muted);"><?= $truckSno++ ?></td>
                                 <td>
                                     <div style="font-weight: 700; color: var(--primary);"><?= htmlspecialchars($truck['truck_no']) ?></div>
                                     <div style="font-size: 11px; color: var(--text-muted);"><?= htmlspecialchars($truck['assigned_route']) ?></div>
@@ -182,6 +184,7 @@ use App\Core\Helper;
                 <table class="custom-table">
                     <thead>
                         <tr>
+                            <th style="width: 45px;">#</th>
                             <th>Gate Pass #</th>
                             <th>Truck / Driver</th>
                             <th>Load Weight</th>
@@ -189,8 +192,9 @@ use App\Core\Helper;
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($manifests as $manifest): ?>
+                        <?php $manSno = 1; foreach ($manifests as $manifest): ?>
                             <tr>
+                                <td style="font-weight: 700; color: var(--text-muted);"><?= $manSno++ ?></td>
                                 <td>
                                     <div style="font-weight: 700;"><?= htmlspecialchars($manifest['manifest_no']) ?></div>
                                     <div style="font-size: 11px; color: var(--text-muted);"><?= htmlspecialchars($manifest['destination']) ?></div>

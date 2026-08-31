@@ -85,6 +85,7 @@ use App\Core\Helper;
                 <table class="custom-table" id="empTable">
                     <thead>
                         <tr>
+                            <th style="width: 45px;">#</th>
                             <th>Employee</th>
                             <th>Designation / Dept</th>
                             <th>Contact</th>
@@ -93,8 +94,9 @@ use App\Core\Helper;
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($employees as $emp): ?>
+                        <?php $sno = 1; foreach ($employees as $emp): ?>
                             <tr>
+                                <td style="font-weight: 700; color: var(--text-muted);"><?= $sno++ ?></td>
                                 <td>
                                     <div style="font-weight: 700;"><?= htmlspecialchars($emp['name']) ?></div>
                                     <div style="font-size: 11px; color: var(--primary); font-family: monospace;"><?= htmlspecialchars($emp['emp_code'] ?? 'EMP') ?></div>
@@ -127,6 +129,7 @@ use App\Core\Helper;
                 <table class="custom-table">
                     <thead>
                         <tr>
+                            <th style="width: 45px;">#</th>
                             <th>Staff Name</th>
                             <th>In / Out</th>
                             <th>Overtime</th>
@@ -134,8 +137,9 @@ use App\Core\Helper;
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($attendance as $att): ?>
+                        <?php $attSno = 1; foreach ($attendance as $att): ?>
                             <tr>
+                                <td style="font-weight: 700; color: var(--text-muted);"><?= $attSno++ ?></td>
                                 <td>
                                     <div style="font-weight: 600;"><?= htmlspecialchars($att['emp_name']) ?></div>
                                 </td>

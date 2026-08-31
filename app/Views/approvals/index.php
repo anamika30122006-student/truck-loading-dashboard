@@ -82,6 +82,7 @@ use App\Core\Helper;
             <table class="custom-table" id="approvalsMasterTable">
                 <thead>
                     <tr>
+                        <th style="width: 45px;">#</th>
                         <th>Request Type / Ref</th>
                         <th>Requester & Dept</th>
                         <th>Details / Description</th>
@@ -93,10 +94,11 @@ use App\Core\Helper;
                 </thead>
                 <tbody>
                     <?php if (empty($approvals)): ?>
-                        <tr><td colspan="7" style="text-align: center; padding: 30px;">No approval records found.</td></tr>
+                        <tr><td colspan="8" style="text-align: center; padding: 30px;">No approval records found.</td></tr>
                     <?php else: ?>
-                        <?php foreach ($approvals as $appr): ?>
+                        <?php $sno = 1; foreach ($approvals as $appr): ?>
                             <tr>
+                                <td style="font-weight: 700; color: var(--text-muted);"><?= $sno++ ?></td>
                                 <td>
                                     <div style="font-weight: 700; color: var(--text-main);"><?= htmlspecialchars($appr['request_type']) ?></div>
                                     <span style="font-family: monospace; font-size: 11px; font-weight: 700; color: var(--primary); background: #EFF6FF; padding: 2px 6px; border-radius: 4px;">

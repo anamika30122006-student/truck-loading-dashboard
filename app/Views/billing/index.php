@@ -80,6 +80,7 @@ use App\Core\Helper;
             <table class="custom-table" id="billingTable">
                 <thead>
                     <tr>
+                        <th style="width: 50px;">#</th>
                         <th>Invoice #</th>
                         <th>Client / Consignee</th>
                         <th>Issue Date</th>
@@ -91,8 +92,9 @@ use App\Core\Helper;
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach ($invoices as $inv): ?>
+                    <?php $sno = 1; foreach ($invoices as $inv): ?>
                         <tr>
+                            <td style="font-weight: 700; color: var(--text-muted);"><?= $sno++ ?></td>
                             <td>
                                 <span style="font-weight: 700; color: var(--primary); font-family: monospace;">
                                     <?= htmlspecialchars($inv['invoice_no']) ?>

@@ -87,6 +87,7 @@ use App\Core\Helper;
             <table class="custom-table" id="inventoryTable">
                 <thead>
                     <tr>
+                        <th style="width: 45px;">#</th>
                         <th>SKU / Code</th>
                         <th>Item Details</th>
                         <th>Category</th>
@@ -100,10 +101,11 @@ use App\Core\Helper;
                 </thead>
                 <tbody>
                     <?php if (empty($items)): ?>
-                        <tr><td colspan="9" style="text-align: center; padding: 30px;">No inventory items registered yet.</td></tr>
+                        <tr><td colspan="10" style="text-align: center; padding: 30px;">No inventory items registered yet.</td></tr>
                     <?php else: ?>
-                        <?php foreach ($items as $item): ?>
+                        <?php $sno = 1; foreach ($items as $item): ?>
                             <tr>
+                                <td style="font-weight: 700; color: var(--text-muted);"><?= $sno++ ?></td>
                                 <td>
                                     <span style="font-family: monospace; font-weight: 700; color: var(--primary); background: #EFF6FF; padding: 3px 8px; border-radius: 4px;">
                                         <?= htmlspecialchars($item['sku']) ?>

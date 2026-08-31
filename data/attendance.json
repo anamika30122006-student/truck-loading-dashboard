@@ -58,5 +58,45 @@
         "check_out": "-",
         "status": "On Leave",
         "overtime_hrs": 0
+    },
+    {
+        "id": 7,
+        "emp_id": 7,
+        "emp_name": "Pooja Deshmukh",
+        "date": "2026-08-31",
+        "check_in": "09:00 AM",
+        "check_out": "06:00 PM",
+        "status": "Present",
+        "overtime_hrs": 0
+    },
+    {
+        "id": 8,
+        "emp_id": 8,
+        "emp_name": "Manoj Tiwari",
+        "date": "2026-08-31",
+        "check_in": "08:15 AM",
+        "check_out": "05:15 PM",
+        "status": "Present",
+        "overtime_hrs": 1.0
+    },
+    {
+        "id": 9,
+        "emp_id": 9,
+        "emp_name": "Kavita Rao",
+        "date": "2026-08-31",
+        "check_in": "09:15 AM",
+        "check_out": "06:15 PM",
+        "status": "Present",
+        "overtime_hrs": 0
+    },
+    {
+        "id": 10,
+        "emp_id": 10,
+        "emp_name": "Deepak Yadav",
+        "date": "2026-08-31",
+        "check_in": "08:00 AM",
+        "check_out": "05:00 PM",
+        "status": "Present",
+        "overtime_hrs": 2.5
     }
 ]
